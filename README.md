@@ -1,4 +1,4 @@
-# Web Development Project 2 - FlashCards
+# Web Development Project 2 - FlashCards (Tech & Art Jokes)
 
 Submitted by: Geraldine Bongato
 
