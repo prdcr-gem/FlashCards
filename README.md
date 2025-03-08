@@ -43,7 +43,7 @@ GIF created with Kap
 
 Describe any challenges encountered while building the app.
 
-Challenges I've encountered were making the card a flip, learning new syntax using {useState}, and applying eventlisteners button as well as having a one week deadline.
+Challenges I've encountered were making the cards flip, learning new syntax using {useState}, and applying eventlisteners button as well as having a one week deadline.
 
 ## License
 
