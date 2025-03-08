@@ -23,7 +23,10 @@ const FlashcardApp = () => {
   };
 
   const handleNextClick = () => {
-    const newIndex = (currentIndex + 1) % flashcards.length;
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * flashcards.length);
+    } while (newIndex === currentIndex); // Ensure it selects a different card
     setCurrentIndex(newIndex);
     setShowAnswer(false);
   };
@@ -37,7 +40,9 @@ const FlashcardApp = () => {
   return (
     <div className="flashcard-container">
       <h1>Tech & Art Jokes Flashcards</h1>
-      <p className="app-description">This app is created for fun! I made flashcards about art & tech since I am an artist as well as a coder/hacker. Hope these flashcards make someone's day and pass it along to others! Have a lovely day!</p>
+      <p className="app-description" style={{ padding: "10px 20px", textAlign: "center", maxWidth: "600px" }}>
+        This app was created for fun! I made flashcards about art and tech since I am both an artist and a coder/hacker. I hope these flashcards brighten someone's day—feel free to pass them along! Have a lovely day!
+      </p>
       <p>How well do you know your tech and art humor? Click to flip the card!</p>
       <p>Number of cards: {flashcards.length}</p>
       
