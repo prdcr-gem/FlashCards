@@ -2,18 +2,18 @@
 
 Submitted by: Geraldine Bongato
 
-This web app: **insert description**
+This web app: This app is created for fun! I made flashcards about art & tech since I am an artist as well as coder/hacker. Hope this flashcards would make someone's day and pass it along to others! Have a lovely day!
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 - [ ] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [ ] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [ ] **A list of card pairs is created**
-- [ ] **Clicking on the card shows the corresponding component of the information pair**
+- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [x] **A list of card pairs is created**
+- [x] **Clicking on the card shows the corresponding component of the information pair**
 - [ ] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:

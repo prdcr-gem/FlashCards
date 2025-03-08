@@ -37,9 +37,9 @@ const FlashcardApp = () => {
   return (
     <div className="flashcard-container">
       <h1>Tech & Art Jokes Flashcards</h1>
+      <p className="app-description">This app is created for fun! I made flashcards about art & tech since I am an artist as well as a coder/hacker. Hope these flashcards make someone's day and pass it along to others! Have a lovely day!</p>
       <p>How well do you know your tech and art humor? Click to flip the card!</p>
       <p>Number of cards: {flashcards.length}</p>
-      <p>Current card: {currentIndex + 1} / {flashcards.length}</p>
       
       <div className={`flashcard ${showAnswer ? 'is-flipped' : ''}`} onClick={handleCardClick}>
         <div className="flashcard-inner">
